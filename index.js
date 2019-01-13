@@ -31,3 +31,10 @@ const x = createFareMultiplier(2)
 function fareDoubler(y){
   return x(y)
 }
+
+
+
+const y = createFareMultiplier(3)
+function fareTripler(x){
+  return y(x)
+}
