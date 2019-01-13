@@ -19,3 +19,11 @@ const returnLastTwoDrivers = function (y){
 
 
 const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
+
+function createFareMultiplier(x){
+return function(y){
+return x*y
+}
+}
+
+
