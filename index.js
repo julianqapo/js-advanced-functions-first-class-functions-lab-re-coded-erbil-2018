@@ -1,10 +1,9 @@
 // Code your solution in this file!
-function returnFirstTwoDrivers(y){
+const returnFirstTwoDrivers = function(y){
   let x = function(){
 return y.slice(0,2)
   }
-return x()
-}
+
 
 /*
 function returnLastTwoDrivers(y){
