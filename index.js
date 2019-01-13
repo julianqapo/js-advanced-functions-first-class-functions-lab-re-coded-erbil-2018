@@ -28,6 +28,6 @@ return x*y
 
 
 const x = createFareMultiplier(2)
-fareDoubler(y){
+function fareDoubler(y){
   return x(y)
 }
