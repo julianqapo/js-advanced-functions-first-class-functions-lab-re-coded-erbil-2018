@@ -15,4 +15,4 @@ function returnLastTwoDrivers(y){
 }
 
 
-const selectingDrivers = [[returnFirstTwoDrivers()],[returnLastTwoDrivers()]]
+const selectingDrivers = [returnFirstTwoDrivers(drivers),returnLastTwoDrivers(drivers)]
