@@ -15,4 +15,4 @@ function returnLastTwoDrivers(y){
 }
 
 
-const selectingDrivers = [['ant', 'bison'],['duck', 'elephant']]
+const selectingDrivers = [[returnFirstTwoDrivers()],[returnLastTwoDrivers()]]
