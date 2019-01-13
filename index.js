@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function returnFirstTwoDrivers(y){
-  var x = function(){
+  let x = function(){
 return y.slice(0,2)
   }
 return x()
