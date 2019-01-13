@@ -15,9 +15,7 @@ function returnLastTwoDrivers(y){
 }
 
 */
-const = returnLastTwoDrivers
-returnLastTwoDrivers = function(y){
-  function x(){
+let returnLastTwoDrivers  function x(){
     return y.slice(-2)
   }
   return x()
