@@ -15,11 +15,9 @@ function returnLastTwoDrivers(y){
 }
 
 */
-const returnLastTwoDrivers = function x(){
+const returnLastTwoDrivers = function (){
     return y.slice(-2)
   }
-  return x()
-}
 
 
 const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
