@@ -38,3 +38,8 @@ const y = createFareMultiplier(3)
 function fareTripler(x){
   return y(x)
 }
+
+
+function selectDifferentDrivers(x,y){
+  return y(x)
+}
