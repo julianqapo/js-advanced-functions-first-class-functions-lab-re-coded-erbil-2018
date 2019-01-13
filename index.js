@@ -27,3 +27,5 @@ return x*y
 }
 
 
+const x = createFareMultiplier(2)
+fareDoubler(x)
