@@ -6,8 +6,17 @@ return y.slice(0,2)
 return x()
 }
 
-
+/*
 function returnLastTwoDrivers(y){
+  function x(){
+    return y.slice(-2)
+  }
+  return x()
+}
+
+*/
+const returnLastTwoDrivers
+returnLastTwoDrivers = function(y){
   function x(){
     return y.slice(-2)
   }
